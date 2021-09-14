@@ -3,14 +3,26 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
     <title>Banana lingo</title>
   </head>
   <body>
 
-  <h1>Banana language</h1>
+  <table class="container">
+    <tr>
+      <td id="theme"><h1>FUN  WITH MINIONS</h1></td>
+      <td><img src="images/minions.jpeg"  alt=""></td>
+    </tr>
+  </table>
+<br><br>
+<h2 class="container">Learn the Minion language! Enter any text in plain English and get the equivalent Banana language text.</h2>
+<br><br>
   <textarea id="txt-input" placeholder="Enter plain English text" name="name" rows="8" cols="80"></textarea>
+  <br>
   <button id="btn-translate">Translate</button>
-  <div> Output will be here👇</div>
+  <br>
+  <div class="output-prompt"> <strong>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspOutput</strong></div>
+  <br>
   <div id="output"></div>
   <script src="app.js" type="text/javascript"></script>
   </body>
