@@ -4,14 +4,14 @@ font-family: 'Raleway', sans-serif;
 }
 :root{
   --primary-color: #FCD34D;
-  --secondary-color: #FBBF24;
+  --secondary-color: #F59E0B;
 }
 .container{
  max-width: 800px;
  margin: auto;
  text-align: center;
  margin-top: 2rem;
- 
+
 }
 #theme{
   background-color: var(--primary-color);
@@ -26,6 +26,7 @@ font-family: 'Raleway', sans-serif;
   display: block;
   text-align: center;
   height: 10vh;
+  font-size: 20px;
 }
 #output{
   display: block;
@@ -33,10 +34,11 @@ font-family: 'Raleway', sans-serif;
   border-style: double;
   border-color: black;
   height: 10vh;
-  width: 600px;
+  width: 800px;
   color: var(--secondary-color);
   text-align: center;
   font-family: cursive;
+  font-size: 20px;
 }
 #btn-translate{
   background-color: var(--primary-color);

@@ -15,16 +15,16 @@ function errorHandler(error){
   alert("Server seems to be experiencing issues, try again later")
 }
 
-function clickHandler(){
-  var inputTxt = txtInput.value
-
+function clickHandler()
+{
+  var inputTxt = txtInput.value;
   fetch(getTranslationURL(inputTxt))
   .then(response => response.json())
   .then(json => {
     var translatedText = json.contents.translated
     outputDiv.innerText = translatedText
   })
-  .catch(errorHandler)
+  //.catch(errorHandler)
 }
 
 btnTranslate.addEventListener("click",clickHandler)
